@@ -1,5 +1,5 @@
 #bgimg {
-    background-image: url("./../assets/Images/bg2.jpg");
+    background-image: url("./../../assets/Images/bg2.jpg");
     background-size: 100%;
     background-size: cover;
     width: 100%;

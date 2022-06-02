@@ -1,0 +1,52 @@
+
+<!-- <div [ngStyle]="{backgroundImage:'url(./../../../assets/Images/bg2.jpg)'}"> -->
+<section  style="background-image: url('./../../assets/Images/bg2.jpg'); background-size: 100%; background-size:cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-12 mx-auto">
+            <div class="card card-body p-5 my-3 shadow-lg bg-light">
+                <div class="text-center">
+                <div class="text-capitalize text-primary fw-bold fs-3">registration</div>
+                </div>
+                <form method="" id="loginister-form" name="loginister-form">
+                <div class="mb-3">
+                    <label for="loginMobileFormControlInput" class="form-label">Mobile No</label>
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Mobile No" aria-label="Username" aria-describedby="basic-addon1" id="loginMobileFormControlInput">
+                    </div>
+                </div>
+
+                <div class="mb-3 pb-3">
+                    <label for="loginEmailFormControlInput" class="form-label">Email</label>
+                    <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" id="loginEmailFormControlInput">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Captcha" aria-label="Username" aria-describedby="basic-addon1" id="loginCaptchaFormControlInput" readonly>
+                    <button id="refreshCaptcBtn" type="button" class="btn btn-primary">Refresh</button>  
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="loginPasswordFormControlInput" class="form-label">Captcha Code</label>
+                    <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Captcha Code" aria-label="Username" aria-describedby="basic-addon1" id="loginPasswordFormControlInput">
+                    </div>
+                </div>
+                <div class="mb-3 d-grid">
+                    <button type="submit" class="btn btn-primary mb-3 text-capitalize">sign up</button>
+                    <button type="submit" class="btn btn-warning mb-3 text-capitalize" (click) ="btnNext()">next</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <form method="post" id="custloginForm">
+        
+    </form>
+    </div>
+</section>
+<!-- </div> -->
